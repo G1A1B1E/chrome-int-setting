@@ -1,0 +1,615 @@
+
+
+  "actionable_error": [
+    {
+      "stat_name": "Error Type",
+      "stat_status": "uninitialized",
+      "stat_value": "Uninitialized"
+    },
+    {
+      "stat_name": "Action",
+      "stat_status": "uninitialized",
+      "stat_value": "Uninitialized"
+    },
+    {
+      "stat_name": "Error Description",
+      "stat_status": "uninitialized",
+      "stat_value": "Uninitialized"
+    }
+  ],
+  "actionable_error_detected": false,
+  "details": [
+    {
+      "data": [
+        {
+          "stat_name": "Transport State",
+          "stat_status": "",
+          "stat_value": "Active"
+        },
+        {
+          "stat_name": "User Actionable Error",
+          "stat_status": "",
+          "stat_value": "None"
+        },
+        {
+          "stat_name": "Disable Reasons",
+          "stat_status": "",
+          "stat_value": "None"
+        },
+        {
+          "stat_name": "Sync Feature Enabled",
+          "stat_status": "",
+          "stat_value": true
+        },
+        {
+          "stat_name": "Setup In Progress",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Auth Error",
+          "stat_status": "",
+          "stat_value": "OK since browser startup"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Summary"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Client Version",
+          "stat_status": "",
+          "stat_value": "Google Chrome ChromeOS 119.0.6045.214 (42d9ae0937c2bdac793feeb5922a0b0cb25ebae2-refs/branch-heads/6045@{#1669})"
+        },
+        {
+          "stat_name": "Server URL",
+          "stat_status": "",
+          "stat_value": "https://clients4.google.com/chrome-sync"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Version Info"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Requested Token",
+          "stat_status": "",
+          "stat_value": "2024-01-10 10:37:53 -05"
+        },
+        {
+          "stat_name": "Received Token Response",
+          "stat_status": "",
+          "stat_value": "2024-01-10 10:37:56 -05"
+        },
+        {
+          "stat_name": "Last Token Request Result",
+          "stat_status": "",
+          "stat_value": "OK"
+        },
+        {
+          "stat_name": "Has Token",
+          "stat_status": "",
+          "stat_value": true
+        },
+        {
+          "stat_name": "Next Token Request",
+          "stat_status": "",
+          "stat_value": "not scheduled"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Credentials"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Server Connection",
+          "stat_status": "",
+          "stat_value": "OK since 2024-01-10 11:16:27 -05"
+        },
+        {
+          "stat_name": "Last Synced",
+          "stat_status": "",
+          "stat_value": "Just now"
+        },
+        {
+          "stat_name": "Sync First-Time Setup Complete",
+          "stat_status": "",
+          "stat_value": true
+        },
+        {
+          "stat_name": "Sync Cycle Ongoing",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Local Sync Backend Enabled",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Local Backend Path",
+          "stat_status": "uninitialized",
+          "stat_value": "Uninitialized"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Local State"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Throttled or Backoff",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Retry Time",
+          "stat_status": "",
+          "stat_value": "Scheduler is not in backoff or throttled"
+        },
+        {
+          "stat_name": "Notifications Enabled",
+          "stat_status": "",
+          "stat_value": true
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Network"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Explicit Passphrase",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Passphrase Required",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Cryptographer Ready To Encrypt",
+          "stat_status": "",
+          "stat_value": true
+        },
+        {
+          "stat_name": "Cryptographer Has Pending Keys",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Encrypted Types",
+          "stat_status": "",
+          "stat_value": "Passwords, Autofill Wallet Credential, Wifi Configurations"
+        },
+        {
+          "stat_name": "Has Keystore Key",
+          "stat_status": "",
+          "stat_value": true
+        },
+        {
+          "stat_name": "Keystore Migration Time",
+          "stat_status": "",
+          "stat_value": "2021-10-18 19:19:44 -04"
+        },
+        {
+          "stat_name": "Passphrase Type",
+          "stat_status": "",
+          "stat_value": "PassphraseType::kKeystorePassphrase"
+        },
+        {
+          "stat_name": "Explicit passphrase Time",
+          "stat_status": "",
+          "stat_value": "n/a"
+        },
+        {
+          "stat_name": "Trusted Vault Migration Time",
+          "stat_status": "uninitialized",
+          "stat_value": "Uninitialized"
+        },
+        {
+          "stat_name": "Trusted Vault Version/Epoch",
+          "stat_status": "uninitialized",
+          "stat_value": 0
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Encryption"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Sync Source",
+          "stat_status": "",
+          "stat_value": "GU_TRIGGER"
+        },
+        {
+          "stat_name": "GetKey Step Failed",
+          "stat_status": "",
+          "stat_value": false
+        },
+        {
+          "stat_name": "Download Step Result",
+          "stat_status": "",
+          "stat_value": "Success"
+        },
+        {
+          "stat_name": "Commit Step Result",
+          "stat_status": "",
+          "stat_value": "Success"
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Status from Last Completed Session"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Notifications Received",
+          "stat_status": "",
+          "stat_value": 0
+        },
+        {
+          "stat_name": "Updates Downloaded",
+          "stat_status": "",
+          "stat_value": 38401
+        },
+        {
+          "stat_name": "Tombstone Updates",
+          "stat_status": "",
+          "stat_value": 0
+        },
+        {
+          "stat_name": "Successful Commits",
+          "stat_status": "",
+          "stat_value": 480
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Running Totals"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Server Conflicts",
+          "stat_status": "",
+          "stat_value": 0
+        },
+        {
+          "stat_name": "Committed Items",
+          "stat_status": "",
+          "stat_value": 1
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Transient Counters (this cycle)"
+    },
+    {
+      "data": [
+        {
+          "stat_name": "Updates Downloaded",
+          "stat_status": "",
+          "stat_value": 0
+        },
+        {
+          "stat_name": "Committed Count",
+          "stat_status": "",
+          "stat_value": 1
+        }
+      ],
+      "is_sensitive": false,
+      "title": "Transient Counters (last cycle of last completed session)"
+    }
+  ],
+  "type_status": [
+    {
+      "message": "Message",
+      "name": "Model Type",
+      "num_entries": "Total Entries",
+      "num_live": "Live Entries",
+      "state": "State",
+      "status": "header"
+    },
+    {
+      "message": "",
+      "name": "Bookmarks",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 144,
+      "num_live": 144
+    },
+    {
+      "message": "",
+      "name": "Preferences",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 60,
+      "num_live": 60
+    },
+    {
+      "message": "",
+      "name": "Passwords",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 136,
+      "num_live": 136
+    },
+    {
+      "message": "",
+      "name": "Autofill Profiles",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Autofill",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 707,
+      "num_live": 707
+    },
+    {
+      "message": "",
+      "name": "Autofill Wallet",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 4,
+      "num_live": 4
+    },
+    {
+      "message": "",
+      "name": "Autofill Wallet Metadata",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 3,
+      "num_live": 3
+    },
+    {
+      "message": "",
+      "name": "Autofill Wallet Offer",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Themes",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 1,
+      "num_live": 1
+    },
+    {
+      "message": "",
+      "name": "Extensions",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 9,
+      "num_live": 9
+    },
+    {
+      "message": "",
+      "name": "Search Engines",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 30,
+      "num_live": 30
+    },
+    {
+      "message": "",
+      "name": "Sessions",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 25,
+      "num_live": 25
+    },
+    {
+      "message": "",
+      "name": "Apps",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 3,
+      "num_live": 3
+    },
+    {
+      "message": "",
+      "name": "App settings",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 1,
+      "num_live": 1
+    },
+    {
+      "message": "",
+      "name": "Extension settings",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 33,
+      "num_live": 33
+    },
+    {
+      "message": "",
+      "name": "History Delete Directives",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Dictionary",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 2,
+      "num_live": 2
+    },
+    {
+      "message": "",
+      "name": "Device Info",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 33,
+      "num_live": 33
+    },
+    {
+      "message": "",
+      "name": "Priority Preferences",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 10,
+      "num_live": 10
+    },
+    {
+      "message": "Datatype preconditions not met.",
+      "name": "Managed User Settings",
+      "state": "Not Running",
+      "status": "severity_info",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "App List",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 49,
+      "num_live": 49
+    },
+    {
+      "message": "",
+      "name": "Arc Package",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 2,
+      "num_live": 2
+    },
+    {
+      "message": "",
+      "name": "Printers",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Reading List",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "User Events",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "User Consents",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Send Tab To Self",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Security Events",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Wifi Configurations",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Web Apps",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 3,
+      "num_live": 3
+    },
+    {
+      "message": "",
+      "name": "OS Preferences",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 17,
+      "num_live": 17
+    },
+    {
+      "message": "",
+      "name": "OS Priority Preferences",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 5,
+      "num_live": 5
+    },
+    {
+      "message": "",
+      "name": "Sharing Message",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Workspace Desk",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "History",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    },
+    {
+      "message": "",
+      "name": "Contact Info",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 1,
+      "num_live": 1
+    },
+    {
+      "message": "",
+      "name": "Proxy tabs",
+      "state": "Running",
+      "status": "ok",
+      "num_entries": 0,
+      "num_live": 0
+    }
+  ],
+  "unrecoverable_error_detected": false
+}

@@ -1,0 +1,1651 @@
+[ {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "ahfgeienlihckogmohjhadlkjgocpleb",
+    "location": "COMPONENT",
+    "manifest_version": 1,
+    "name": "Web Store",
+    "path": "/opt/google/chrome/resources/web_store",
+    "permissions": {
+       "active": {
+          "api": [ "management", "system.display", "system.storage", "webstorePrivate", "system.cpu", "system.memory", "system.network" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_HOSTED_APP",
+    "version": "0.2"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 2,
+       "listeners": [ {
+          "event_name": "commands.onCommand",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       } ]
+    },
+    "id": "bhghoamapcdpbohphigoooaddinpkbai",
+    "location": "INTERNAL",
+    "manifest_version": 2,
+    "name": "Authenticator",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/bhghoamapcdpbohphigoooaddinpkbai/6.3.5_0",
+    "permissions": {
+       "active": {
+          "api": [ "activeTab", "clipboardWrite", "identity", "storage" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [ "clipboardWrite", "contextMenus" ],
+          "explicit_hosts": [ "https://*.dropboxapi.com/*", "https://accounts.google.com/*", "https://graph.microsoft.com/*", "https://login.microsoftonline.com/*", "https://www.google.com/*", "https://www.googleapis.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "6.3.5"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 3,
+       "listeners": [ {
+          "event_name": "app.runtime.onLaunched",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "tabs.onRemoved",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "bpmcpldpdmajfigpchkicefoigmkfalc",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Basic Editor for Office files",
+    "path": "/usr/share/chromeos-assets/quickoffice",
+    "permissions": {
+       "active": {
+          "api": [ "clipboardRead", "clipboardWrite", "cookies", "downloads", "fileSystem", "fileSystem.write", "identity", "identity.email", "metricsPrivate", "storage", "unlimitedStorage" ],
+          "explicit_hosts": [ "*://*.google.com/*", "https://www.google-analytics.com/*", "https://www.googleapis.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "147.638.665"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 1,
+       "listeners": [ {
+          "event_name": "app.runtime.onLaunched",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "cnbgggchhmkkdmeppjobngjoejnihlei",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Play Store",
+    "path": "/opt/google/chrome/resources/chromeos/arc_support",
+    "permissions": {
+       "active": {
+          "api": [ "browser", "nativeMessaging", "webview" ],
+          "explicit_hosts": [ "chrome://resources/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_PLATFORM_APP",
+    "version": "0.2.0.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 4,
+       "listeners": [ {
+          "event_name": "ttsEngine.onPause",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "ttsEngine.onResume",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "ttsEngine.onSpeakWithAudioStream",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "ttsEngine.onStop",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "dakbfdmgjiabojdgbiljlhgjbokobjpg",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "eSpeakNG text-to-speech extension",
+    "path": "/usr/share/chromeos-assets/speech_synthesis/espeak-ng",
+    "permissions": {
+       "active": {
+          "api": [ "storage", "ttsEngine" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.49.3.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 19,
+       "listeners": [ {
+          "event_name": "commands.onCommand",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "contextMenus.onClicked",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "permissions.onAdded",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "permissions.onRemoved",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "runtime.onUpdateAvailable",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "storage.onChanged",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onActivated",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onRemoved",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onReplaced",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onUpdated",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webNavigation.onBeforeNavigate",
+          "filter": {
+             "url": [ {
+                "schemes": [ "http", "https" ]
+             } ]
+          },
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webNavigation.onCommitted",
+          "filter": {
+          },
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onBeforeRedirect/g3",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onBeforeRequest/g1",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onBeforeSendHeaders/g6",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onHeadersReceived/g2",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onResponseStarted/g4",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       } ]
+    },
+    "id": "dhdgffkkebhmkfjojejmpbldmpobfkfo",
+    "location": "INTERNAL",
+    "manifest_version": 2,
+    "name": "Tampermonkey",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/dhdgffkkebhmkfjojejmpbldmpobfkfo/5.0.1_0",
+    "permissions": {
+       "active": {
+          "api": [ "clipboardWrite", "contextMenus", "cookies", "declarativeContent", "idle", "notifications", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking" ],
+          "explicit_hosts": [ "\u003Call_urls>", "chrome://favicon/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [ "file:///*", "http://*/*", "https://*/*" ]
+       },
+       "optional": {
+          "api": [ "downloads" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "5.0.1"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 4,
+       "listeners": [ {
+          "event_name": "contextMenus.onClicked",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "tabs.onCreated",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "tabs.onReplaced",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "dnhngfnfolbmhgealdpolmhimnoliiok",
+    "location": "INTERNAL",
+    "manifest_version": 2,
+    "name": "Disable automatic tab discarding",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/dnhngfnfolbmhgealdpolmhimnoliiok/1.0.4_0",
+    "permissions": {
+       "active": {
+          "api": [ "contextMenus" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.0.4"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "dpacanjfikmhoddligfbehkpomnbgblf",
+    "location": "INTERNAL",
+    "manifest_version": 3,
+    "name": "AHA Music - Song Finder for Browser",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/dpacanjfikmhoddligfbehkpomnbgblf/2.0.4_0",
+    "permissions": {
+       "active": {
+          "api": [ "activeTab", "identity", "identity.email", "storage", "tabCapture", "unlimitedStorage" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [ "*://*/*" ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "2.0.4"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 12,
+       "listeners": [ {
+          "event_name": "action.onClicked",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "action.onClicked",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "commands.onCommand",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "commands.onCommand",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "contextMenus.onClicked",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "contextMenus.onClicked",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "tabs.onActivated",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "tabs.onActivated",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "tabs.onUpdated",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       }, {
+          "event_name": "tabs.onUpdated",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://eenjdnjldapjajjofmldgmkjaienebbj/"
+       } ]
+    },
+    "id": "eenjdnjldapjajjofmldgmkjaienebbj",
+    "location": "INTERNAL",
+    "manifest_version": 3,
+    "name": "Copyfish ðŸŸ Free OCR Software",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/eenjdnjldapjajjofmldgmkjaienebbj/6.0.9_0",
+    "permissions": {
+       "active": {
+          "api": [ "activeTab", "clipboardRead", "contextMenus", "nativeMessaging", "notifications", "storage", "scripting" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "6.0.9"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 6,
+       "listeners": [ {
+          "event_name": "action.onClicked",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://ehmneimbopigfgchjglgngamiccjkijh/"
+       }, {
+          "event_name": "action.onClicked",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://ehmneimbopigfgchjglgngamiccjkijh/"
+       }, {
+          "event_name": "alarms.onAlarm",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://ehmneimbopigfgchjglgngamiccjkijh/"
+       }, {
+          "event_name": "alarms.onAlarm",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://ehmneimbopigfgchjglgngamiccjkijh/"
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://ehmneimbopigfgchjglgngamiccjkijh/"
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://ehmneimbopigfgchjglgngamiccjkijh/"
+       } ]
+    },
+    "id": "ehmneimbopigfgchjglgngamiccjkijh",
+    "location": "INTERNAL",
+    "manifest_version": 3,
+    "name": "New Tab with chatgpt for Chrome",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/ehmneimbopigfgchjglgngamiccjkijh/1.1.1_0",
+    "permissions": {
+       "active": {
+          "api": [ "alarms", "storage", "tabs", "unlimitedStorage", "newTabPageOverride", "scripting" ],
+          "explicit_hosts": [ "\u003Call_urls>" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [ "notifications" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.1.1"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE", "WAS_INSTALLED_BY_DEFAULT" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 2,
+       "listeners": [ {
+          "event_name": "alarms.onAlarm",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "ghbmnnjooekpmoecnnnilnnbdlolhkhi",
+    "location": "EXTERNAL_PREF_DOWNLOAD",
+    "manifest_version": 2,
+    "name": "Google Docs Offline",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.73.0_0",
+    "permissions": {
+       "active": {
+          "api": [ "alarms", "storage", "unlimitedStorage" ],
+          "explicit_hosts": [ "https://docs.google.com/*", "https://drive.google.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.73.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 4,
+       "listeners": [ {
+          "event_name": "ttsEngine.onPause",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "ttsEngine.onResume",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "ttsEngine.onSpeak",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "ttsEngine.onStop",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "gjjabgpgjpampikjhjpfhneeoapjbjaf",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Chrome OS built-in text-to-speech extension",
+    "path": "/usr/share/chromeos-assets/speech_synthesis/patts",
+    "permissions": {
+       "active": {
+          "api": [ "accessibilityPrivate", "metricsPrivate", "tts", "ttsEngine", "unlimitedStorage" ],
+          "explicit_hosts": [ "https://*.gvt1.com/*", "https://dl.google.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "28"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 15,
+       "listeners": [ {
+          "event_name": "browserAction.onClicked",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "contextMenus",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "contextMenus.onClicked",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "omnibox.onInputChanged",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "omnibox.onInputEntered",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onActivated",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onCreated",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onRemoved",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "tabs.onUpdated",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onAuthRequired/g2",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onAuthRequired/g3",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "webRequest.onSendHeaders/g1",
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "windows.onFocusChanged",
+          "filter": {
+          },
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       }, {
+          "event_name": "windows.onRemoved",
+          "filter": {
+          },
+          "is_for_service_worker": false,
+          "is_lazy": false,
+          "url": ""
+       } ]
+    },
+    "id": "hdokiejnpimakedhajhdlcegeplioahd",
+    "location": "INTERNAL",
+    "manifest_version": 2,
+    "name": "LastPass: Free Password Manager",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/hdokiejnpimakedhajhdlcegeplioahd/4.125.0.4_0",
+    "permissions": {
+       "active": {
+          "api": [ "contextMenus", "idle", "notifications", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking" ],
+          "explicit_hosts": [ "chrome://favicon/*", "http://*/*", "https://*/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [ "file:///*", "http://*/*", "https://*/*", "https://backoffice.lastpass.com/*", "https://backoffice.lastpass.com/?&ac=1*", "https://backoffice.lastpass.com/?ac=1*", "https://backoffice.lastpass.com/?securitychallenge=1*", "https://backoffice.lastpass.com/acctsiframe.php*", "https://backoffice.lastpass.com/delete_account.php*", "https://backoffice.lastpass.com/enterprise_options.php*", "https://backoffice.lastpass.com/enterprise_users.php*", "https://backoffice.lastpass.com/index.php*", "https://backoffice.lastpass.com/misc_challenge.php*", "https://backoffice.lastpass.com/misc_login.php*", "https://backoffice.lastpass.com/otp.php*", "https://backoffice.lastpass.com/update_phone.php*", "https://backoffice.lastpass.com/vault/*", "https://lastpass.com/", "https://lastpass.com/*", "https://lastpass.com/?&ac=1*", "https://lastpass.com/?ac=1*", "https://lastpass.com/?securitychallenge=1*", "https://lastpass.com/acctsiframe.php*", "https://lastpass.com/delete_account.php*", "https://lastpass.com/enterprise_options.php*", "https://lastpass.com/enterprise_users.php*", "https://lastpass.com/index.php*", "https://lastpass.com/misc_challenge.php*", "https://lastpass.com/misc_login.php*", "https://lastpass.com/otp.php*", "https://lastpass.com/recover.php*", "https://lastpass.com/update_phone.php*", "https://lastpass.com/vault/*", "https://lastpass.com/vault/vault.html*", "https://lastpass.eu/?&ac=1*", "https://lastpass.eu/?ac=1*", "https://lastpass.eu/?securitychallenge=1*", "https://lastpass.eu/acctsiframe.php*", "https://lastpass.eu/delete_account.php*", "https://lastpass.eu/enterprise_options.php*", "https://lastpass.eu/enterprise_users.php*", "https://lastpass.eu/index.php*", "https://lastpass.eu/misc_challenge.php*", "https://lastpass.eu/misc_login.php*", "https://lastpass.eu/otp.php*", "https://lastpass.eu/recover.php*", "https://lastpass.eu/update_phone.php*", "https://lastpass.eu/vault/*", "https://www.lastpass.com/", "https://www.lastpass.com/*", "https://www.lastpass.com/create-account/success*" ]
+       },
+       "optional": {
+          "api": [ "nativeMessaging", "privacy" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "4.125.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "honijodknafkokifofgiaalefdiedpko",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Help",
+    "path": "/usr/share/chromeos-assets/helpapp",
+    "permissions": {
+       "active": {
+          "api": [ "storage" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "4.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "iljojpiodmlhoehoecppliohmplbgeij",
+    "location": "INTERNAL",
+    "manifest_version": 2,
+    "name": "Kami - PDF and Document Annotation",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/iljojpiodmlhoehoecppliohmplbgeij/2.8_0",
+    "permissions": {
+       "active": {
+          "api": [ "notifications" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_HOSTED_APP",
+    "version": "2.8"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 14,
+       "listeners": [ {
+          "event_name": "input.ime.onActivate",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "input.ime.onBlur",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "input.ime.onCandidateClicked",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "input.ime.onDeactivated",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "input.ime.onMenuItemActivated",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "input.ime.onReset",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "input.ime.onSurroundingTextChanged",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "inputMethodPrivate.onFocus",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "inputMethodPrivate.onScreenProjectionChanged",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "inputMethodPrivate.onSuggestionsChanged",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "system.display.onDisplayChanged",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "types.ChromeSetting.spokenFeedback.onChange",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "virtualKeyboardPrivate.onKeyboardClosed",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "virtualKeyboardPrivate.onKeyboardConfigChanged",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "jkghodnilhceideoidjikpgommlajknk",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Chrome OS XKB",
+    "path": "/usr/share/chromeos-assets/input_methods/input_tools",
+    "permissions": {
+       "active": {
+          "api": [ "accessibilityFeatures.read", "app.window.alpha", "audioCapture", "app.window.ime", "input", "inputMethodPrivate", "metricsPrivate", "notifications", "system.display", "tabs", "tts", "unlimitedStorage", "virtualKeyboardPrivate" ],
+          "explicit_hosts": [ "https://clients4.google.com/*", "https://dl.google.com/*", "https://handwriting.googleapis.com/*", "https://www.googleapis.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.0.5.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "kddnkjkcjddckihglkfcickdhbmaodcn",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Chrome Goodies",
+    "path": "/usr/share/chromeos-assets/echo",
+    "permissions": {
+       "active": {
+          "api": [ "alarms", "chromeosInfoPrivate", "cookies", "echoPrivate", "metricsPrivate", "notifications", "storage" ],
+          "explicit_hosts": [ "https://*/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.0.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE", "WAS_INSTALLED_BY_DEFAULT" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 2,
+       "listeners": [ {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://lmjegmlicamnimmfhcmpkclmigmmcbeh/"
+       }, {
+          "event_name": "runtime.onConnectNative",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://lmjegmlicamnimmfhcmpkclmigmmcbeh/"
+       } ]
+    },
+    "id": "lmjegmlicamnimmfhcmpkclmigmmcbeh",
+    "location": "EXTERNAL_PREF_DOWNLOAD",
+    "manifest_version": 3,
+    "name": "Application launcher for Drive (by Google)",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/lmjegmlicamnimmfhcmpkclmigmmcbeh/3.10_0",
+    "permissions": {
+       "active": {
+          "api": [ "nativeMessaging", "offscreen" ],
+          "explicit_hosts": [ "https://docs.google.com/*", "https://drive.google.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "3.10"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "mgndgikekgjfcpckkfioiadnlibdjbkf",
+    "location": "COMPONENT",
+    "manifest_version": 1,
+    "name": "Chrome",
+    "path": "/opt/google/chrome/resources/chrome_app",
+    "permissions": {
+       "active": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_HOSTED_APP",
+    "version": "0.1"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "mhjfbmdgcfjbbpaeojofohoefgiehjai",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Chrome PDF Viewer",
+    "path": "/opt/google/chrome/resources/pdf",
+    "permissions": {
+       "active": {
+          "api": [ "contentSettings", "fileSystem", "fileSystem.write", "metricsPrivate", "tabs", "resourcesPrivate", "pdfViewerPrivate" ],
+          "explicit_hosts": [ "chrome://resources/*", "chrome://webui-test/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE", "WAS_INSTALLED_BY_DEFAULT" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 1,
+       "listeners": [ {
+          "event_name": "app.runtime.onLaunched",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "mmfbcljfglbokpmkimbfghdkjmjhdgbg",
+    "location": "EXTERNAL_PREF_DOWNLOAD",
+    "manifest_version": 2,
+    "name": "Text",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/mmfbcljfglbokpmkimbfghdkjmjhdgbg/0.8.4_0",
+    "permissions": {
+       "active": {
+          "api": [ "app.window.alwaysOnTop", "fileSystem", "fileSystem.retainEntries", "fileSystem.write", "storage" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_PLATFORM_APP",
+    "version": "0.8.4"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 0,
+       "listeners": [  ]
+    },
+    "id": "mppnpdlheglhdfmldimlhpnegondlapf",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "__MSG_chos_inputtool_title__",
+    "path": "/opt/google/chrome/resources/keyboard",
+    "permissions": {
+       "active": {
+          "api": [ "inputMethodPrivate", "tabs", "virtualKeyboardPrivate" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.0.6.0"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 1,
+       "listeners": [ {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "nkeimhogjdpnpccoofpliimaahmaaome",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Google Hangouts",
+    "path": "/opt/google/chrome/resources/hangout_services",
+    "permissions": {
+       "active": {
+          "api": [ "desktopCapture", "processes", "webrtcAudioPrivate", "webrtcDesktopCapturePrivate", "webrtcLoggingPrivate", "system.cpu", "enterprise.hardwarePlatform" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "1.3.21"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": -1
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 6,
+       "listeners": [ {
+          "event_name": "commands.onCommand",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://nmfedkijhhigaikbadoijiolmjjgoimd/"
+       }, {
+          "event_name": "commands.onCommand",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://nmfedkijhhigaikbadoijiolmjjgoimd/"
+       }, {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://nmfedkijhhigaikbadoijiolmjjgoimd/"
+       }, {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://nmfedkijhhigaikbadoijiolmjjgoimd/"
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": true,
+          "is_lazy": false,
+          "url": "chrome-extension://nmfedkijhhigaikbadoijiolmjjgoimd/"
+       }, {
+          "event_name": "runtime.onInstalled",
+          "is_for_service_worker": true,
+          "is_lazy": true,
+          "url": "chrome-extension://nmfedkijhhigaikbadoijiolmjjgoimd/"
+       } ]
+    },
+    "id": "nmfedkijhhigaikbadoijiolmjjgoimd",
+    "location": "INTERNAL",
+    "manifest_version": 3,
+    "name": "Keyboard & Mouse for Xbox xCloud",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/nmfedkijhhigaikbadoijiolmjjgoimd/3.6.1_0",
+    "permissions": {
+       "active": {
+          "api": [ "storage", "scripting" ],
+          "explicit_hosts": [ "*://*.xbox.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [ "*://*.xbox.com/*" ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "3.6.1"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY", "FROM_WEBSTORE", "WAS_INSTALLED_BY_DEFAULT" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 2,
+       "listeners": [ {
+          "event_name": "app.runtime.onLaunched",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       }, {
+          "event_name": "runtime.onConnectExternal",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "nmmhkkegccagdldgiimedpiccmgmieda",
+    "location": "EXTERNAL_COMPONENT",
+    "manifest_version": 2,
+    "name": "Chrome Web Store Payments",
+    "path": "/home/chronos/u-f056222322de379e318cc079e6839a7536be7ee4/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0",
+    "permissions": {
+       "active": {
+          "api": [ "identity", "webview" ],
+          "explicit_hosts": [ "https://payments.google.com/*", "https://sandbox.google.com/*", "https://www.google.com/*", "https://www.googleapis.com/*" ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_PLATFORM_APP",
+    "version": "1.0.0.6"
+ }, {
+    "background_page_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "creation_flags": [ "REQUIRE_KEY" ],
+    "disable_reasons": [  ],
+    "event_listeners": {
+       "count": 1,
+       "listeners": [ {
+          "event_name": "runtime.onConnectNative",
+          "is_for_service_worker": false,
+          "is_lazy": true,
+          "url": ""
+       } ]
+    },
+    "id": "pmfjbimdmchhbnneeidfognadeopoehp",
+    "location": "COMPONENT",
+    "manifest_version": 2,
+    "name": "Image loader",
+    "path": "/opt/google/chrome/resources/image_loader",
+    "permissions": {
+       "active": {
+          "api": [ "nativeMessaging", "storage", "imageLoaderPrivate" ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "optional": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       },
+       "tab_specific": {
+       },
+       "withheld": {
+          "api": [  ],
+          "explicit_hosts": [  ],
+          "manifest": [  ],
+          "scriptable_hosts": [  ]
+       }
+    },
+    "service_worker_keepalives": {
+       "activites": [  ],
+       "count": 0
+    },
+    "type": "TYPE_EXTENSION",
+    "version": "0.2"
+ } ]

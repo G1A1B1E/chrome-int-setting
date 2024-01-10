@@ -1,0 +1,30 @@
+{
+    "intl.accept_languages": "en-CA,en-GB,en-US,en",
+    "translate.enabled": true,
+    "translate_accepted_count": {
+      "es": 2,
+      "fr": 4,
+      "pt": 0,
+      "ru": 0,
+      "zh-CN": 2
+    },
+    "translate_allowlists": {
+      "fr": "en"
+    },
+    "translate_blocked_languages": [
+      "en"
+    ],
+    "translate_denied_count_for_language": {
+      "es": 0,
+      "fr": 0,
+      "pt": 1,
+      "ru": 1,
+      "zh-CN": 0
+    },
+    "translate_ignored_count_for_language": {},
+    "translate_recent_target": "en",
+    "translate_site_blocklist": [],
+    "translate_site_blocklist_with_time": {}
+  }
+  
+  

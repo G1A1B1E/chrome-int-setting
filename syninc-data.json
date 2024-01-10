@@ -1,0 +1,1108 @@
+{
+    "actionable_error": [
+      {
+        "stat_name": "Error Type",
+        "stat_status": "uninitialized",
+        "stat_value": "Uninitialized"
+      },
+      {
+        "stat_name": "Action",
+        "stat_status": "uninitialized",
+        "stat_value": "Uninitialized"
+      },
+      {
+        "stat_name": "Error Description",
+        "stat_status": "uninitialized",
+        "stat_value": "Uninitialized"
+      }
+    ],
+    "actionable_error_detected": false,
+    "details": [
+      {
+        "data": [
+          {
+            "stat_name": "Transport State",
+            "stat_status": "",
+            "stat_value": "Active"
+          },
+          {
+            "stat_name": "User Actionable Error",
+            "stat_status": "",
+            "stat_value": "None"
+          },
+          {
+            "stat_name": "Disable Reasons",
+            "stat_status": "",
+            "stat_value": "None"
+          },
+          {
+            "stat_name": "Sync Feature Enabled",
+            "stat_status": "",
+            "stat_value": true
+          },
+          {
+            "stat_name": "Setup In Progress",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Auth Error",
+            "stat_status": "",
+            "stat_value": "OK since browser startup"
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Summary"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Client Version",
+            "stat_status": "",
+            "stat_value": "Google Chrome ChromeOS 119.0.6045.214 (42d9ae0937c2bdac793feeb5922a0b0cb25ebae2-refs/branch-heads/6045@{#1669})"
+          },
+          {
+            "stat_name": "Server URL",
+            "stat_status": "",
+            "stat_value": "https://clients4.google.com/chrome-sync"
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Version Info"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Sync Client ID",
+            "stat_status": "",
+            "stat_value": "VZ1eaDHRRQsqYVZnFQ5dcA=="
+          },
+          {
+            "stat_name": "Username",
+            "stat_status": "",
+            "stat_value": "gabemacru@gmail.com"
+          },
+          {
+            "stat_name": "Sync Consent",
+            "stat_status": "",
+            "stat_value": true
+          }
+        ],
+        "is_sensitive": true,
+        "title": "Identity"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Requested Token",
+            "stat_status": "",
+            "stat_value": "2024-01-10 10:37:53 -05"
+          },
+          {
+            "stat_name": "Received Token Response",
+            "stat_status": "",
+            "stat_value": "2024-01-10 10:37:56 -05"
+          },
+          {
+            "stat_name": "Last Token Request Result",
+            "stat_status": "",
+            "stat_value": "OK"
+          },
+          {
+            "stat_name": "Has Token",
+            "stat_status": "",
+            "stat_value": true
+          },
+          {
+            "stat_name": "Next Token Request",
+            "stat_status": "",
+            "stat_value": "not scheduled"
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Credentials"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Server Connection",
+            "stat_status": "",
+            "stat_value": "OK since 2024-01-10 11:16:27 -05"
+          },
+          {
+            "stat_name": "Last Synced",
+            "stat_status": "",
+            "stat_value": "Just now"
+          },
+          {
+            "stat_name": "Sync First-Time Setup Complete",
+            "stat_status": "",
+            "stat_value": true
+          },
+          {
+            "stat_name": "Sync Cycle Ongoing",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Local Sync Backend Enabled",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Local Backend Path",
+            "stat_status": "uninitialized",
+            "stat_value": "Uninitialized"
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Local State"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Throttled or Backoff",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Retry Time",
+            "stat_status": "",
+            "stat_value": "Scheduler is not in backoff or throttled"
+          },
+          {
+            "stat_name": "Notifications Enabled",
+            "stat_status": "",
+            "stat_value": true
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Network"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Explicit Passphrase",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Passphrase Required",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Cryptographer Ready To Encrypt",
+            "stat_status": "",
+            "stat_value": true
+          },
+          {
+            "stat_name": "Cryptographer Has Pending Keys",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Encrypted Types",
+            "stat_status": "",
+            "stat_value": "Passwords, Autofill Wallet Credential, Wifi Configurations"
+          },
+          {
+            "stat_name": "Has Keystore Key",
+            "stat_status": "",
+            "stat_value": true
+          },
+          {
+            "stat_name": "Keystore Migration Time",
+            "stat_status": "",
+            "stat_value": "2021-10-18 19:19:44 -04"
+          },
+          {
+            "stat_name": "Passphrase Type",
+            "stat_status": "",
+            "stat_value": "PassphraseType::kKeystorePassphrase"
+          },
+          {
+            "stat_name": "Explicit passphrase Time",
+            "stat_status": "",
+            "stat_value": "n/a"
+          },
+          {
+            "stat_name": "Trusted Vault Migration Time",
+            "stat_status": "uninitialized",
+            "stat_value": "Uninitialized"
+          },
+          {
+            "stat_name": "Trusted Vault Version/Epoch",
+            "stat_status": "uninitialized",
+            "stat_value": 0
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Encryption"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Sync Source",
+            "stat_status": "",
+            "stat_value": "GU_TRIGGER"
+          },
+          {
+            "stat_name": "GetKey Step Failed",
+            "stat_status": "",
+            "stat_value": false
+          },
+          {
+            "stat_name": "Download Step Result",
+            "stat_status": "",
+            "stat_value": "Success"
+          },
+          {
+            "stat_name": "Commit Step Result",
+            "stat_status": "",
+            "stat_value": "Success"
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Status from Last Completed Session"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Notifications Received",
+            "stat_status": "",
+            "stat_value": 0
+          },
+          {
+            "stat_name": "Updates Downloaded",
+            "stat_status": "",
+            "stat_value": 38401
+          },
+          {
+            "stat_name": "Tombstone Updates",
+            "stat_status": "",
+            "stat_value": 0
+          },
+          {
+            "stat_name": "Successful Commits",
+            "stat_status": "",
+            "stat_value": 485
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Running Totals"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Server Conflicts",
+            "stat_status": "",
+            "stat_value": 0
+          },
+          {
+            "stat_name": "Committed Items",
+            "stat_status": "",
+            "stat_value": 4
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Transient Counters (this cycle)"
+      },
+      {
+        "data": [
+          {
+            "stat_name": "Updates Downloaded",
+            "stat_status": "",
+            "stat_value": 0
+          },
+          {
+            "stat_name": "Committed Count",
+            "stat_status": "",
+            "stat_value": 4
+          }
+        ],
+        "is_sensitive": false,
+        "title": "Transient Counters (last cycle of last completed session)"
+      }
+    ],
+    "type_status": [
+      {
+        "message": "Message",
+        "name": "Model Type",
+        "num_entries": "Total Entries",
+        "num_live": "Live Entries",
+        "state": "State",
+        "status": "header"
+      },
+      {
+        "message": "",
+        "name": "Bookmarks",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 144,
+        "num_live": 144
+      },
+      {
+        "message": "",
+        "name": "Preferences",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 60,
+        "num_live": 60
+      },
+      {
+        "message": "",
+        "name": "Passwords",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 136,
+        "num_live": 136
+      },
+      {
+        "message": "",
+        "name": "Autofill Profiles",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Autofill",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 707,
+        "num_live": 707
+      },
+      {
+        "message": "",
+        "name": "Autofill Wallet",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 4,
+        "num_live": 4
+      },
+      {
+        "message": "",
+        "name": "Autofill Wallet Metadata",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 3,
+        "num_live": 3
+      },
+      {
+        "message": "",
+        "name": "Autofill Wallet Offer",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Themes",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 1,
+        "num_live": 1
+      },
+      {
+        "message": "",
+        "name": "Extensions",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 9,
+        "num_live": 9
+      },
+      {
+        "message": "",
+        "name": "Search Engines",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 30,
+        "num_live": 30
+      },
+      {
+        "message": "",
+        "name": "Sessions",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 26,
+        "num_live": 25
+      },
+      {
+        "message": "",
+        "name": "Apps",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 3,
+        "num_live": 3
+      },
+      {
+        "message": "",
+        "name": "App settings",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 1,
+        "num_live": 1
+      },
+      {
+        "message": "",
+        "name": "Extension settings",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 33,
+        "num_live": 33
+      },
+      {
+        "message": "",
+        "name": "History Delete Directives",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Dictionary",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 2,
+        "num_live": 2
+      },
+      {
+        "message": "",
+        "name": "Device Info",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 33,
+        "num_live": 33
+      },
+      {
+        "message": "",
+        "name": "Priority Preferences",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 10,
+        "num_live": 10
+      },
+      {
+        "message": "Datatype preconditions not met.",
+        "name": "Managed User Settings",
+        "state": "Not Running",
+        "status": "severity_info",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "App List",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 49,
+        "num_live": 49
+      },
+      {
+        "message": "",
+        "name": "Arc Package",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 2,
+        "num_live": 2
+      },
+      {
+        "message": "",
+        "name": "Printers",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Reading List",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "User Events",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "User Consents",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Send Tab To Self",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Security Events",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Wifi Configurations",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Web Apps",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 3,
+        "num_live": 3
+      },
+      {
+        "message": "",
+        "name": "OS Preferences",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 17,
+        "num_live": 17
+      },
+      {
+        "message": "",
+        "name": "OS Priority Preferences",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 5,
+        "num_live": 5
+      },
+      {
+        "message": "",
+        "name": "Sharing Message",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Workspace Desk",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "History",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      },
+      {
+        "message": "",
+        "name": "Contact Info",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 1,
+        "num_live": 1
+      },
+      {
+        "message": "",
+        "name": "Proxy tabs",
+        "state": "Running",
+        "status": "ok",
+        "num_entries": 0,
+        "num_live": 0
+      }
+    ],
+    "unrecoverable_error_detected": false
+  }
+  
+  ===
+  Log
+  ===
+  [
+    {
+      "submodule": "protocol",
+      "event": "onProtocolEvent",
+      "date": "2024-01-10T16:51:51.398Z",
+      "details": {
+        "details": "Item count: 1\nContributing types: Sessions",
+        "proto": {
+          "client_status": {
+            "is_sync_feature_enabled": true
+          },
+          "commit": {
+            "cache_guid": "VZ1eaDHRRQsqYVZnFQ5dcA==",
+            "config_params": {
+              "cookie_jar_mismatch": false,
+              "enabled_type_ids": [
+                "32904",
+                "37702",
+                "45873",
+                "63951",
+                "31729",
+                "306270",
+                "330441",
+                "774329",
+                "41210",
+                "48119",
+                "88610",
+                "50119",
+                "48364",
+                "103656",
+                "96159",
+                "150251",
+                "170540",
+                "154522",
+                "163425",
+                "229170",
+                "340906",
+                "410745",
+                "411028",
+                "455206",
+                "556014",
+                "601980",
+                "600372",
+                "662827",
+                "673225",
+                "702141",
+                "703915",
+                "728866",
+                "874841",
+                "963985",
+                "1034378",
+                "47745"
+              ],
+              "single_client": false,
+              "single_client_with_old_invalidations": true,
+              "single_client_with_standalone_invalidations": false,
+              "tabs_datatype_enabled": true
+            },
+            "entries": [
+              {
+                "client_tag_hash": "0QOzfIq9+fRsd65uR/YDs4f1O9E=",
+                "deleted": true,
+                "id_string": "Z:ADqtAZwTqq53I1NmdNBHIa+C+wLqcCLgk0l4opwJGf0Hzj6b7m30v0wVydJYThR5s+54b48M2ai1xnq7/vkOg3Om0/Pu7+AvCA==",
+                "mtime": "1704905241136",
+                "name": "",
+                "version": "1"
+              }
+            ]
+          },
+          "debug_info": {
+            "cryptographer_has_pending_keys": false,
+            "cryptographer_ready": true,
+            "events": [
+              {
+                "sync_cycle_completed_event_info": {
+                  "caller_info": {
+                    "notifications_enabled": true
+                  },
+                  "get_updates_origin": "GU_TRIGGER",
+                  "num_server_conflicts": "0",
+                  "num_updates_downloaded": "0"
+                }
+              },
+              {
+                "nudging_datatype": "50119"
+              }
+            ],
+            "events_dropped": false
+          },
+          "protocol_version": "99",
+          "share": "gabemacru@gmail.com",
+          "store_birthday": "z0000017c-95b4-29cc-0000-0000616e0110"
+        },
+        "time": 1704905252139.787,
+        "type": "Commit Request"
+      },
+      "textDetails": "{\n  \"details\": \"Item count: 1\\nContributing types: Sessions\",\n  \"proto\": {\n    \"client_status\": {\n      \"is_sync_feature_enabled\": true\n    },\n    \"commit\": {\n      \"cache_guid\": \"VZ1eaDHRRQsqYVZnFQ5dcA==\",\n      \"config_params\": {\n        \"cookie_jar_mismatch\": false,\n        \"enabled_type_ids\": [\n          \"32904\",\n          \"37702\",\n          \"45873\",\n          \"63951\",\n          \"31729\",\n          \"306270\",\n          \"330441\",\n          \"774329\",\n          \"41210\",\n          \"48119\",\n          \"88610\",\n          \"50119\",\n          \"48364\",\n          \"103656\",\n          \"96159\",\n          \"150251\",\n          \"170540\",\n          \"154522\",\n          \"163425\",\n          \"229170\",\n          \"340906\",\n          \"410745\",\n          \"411028\",\n          \"455206\",\n          \"556014\",\n          \"601980\",\n          \"600372\",\n          \"662827\",\n          \"673225\",\n          \"702141\",\n          \"703915\",\n          \"728866\",\n          \"874841\",\n          \"963985\",\n          \"1034378\",\n          \"47745\"\n        ],\n        \"single_client\": false,\n        \"single_client_with_old_invalidations\": true,\n        \"single_client_with_standalone_invalidations\": false,\n        \"tabs_datatype_enabled\": true\n      },\n      \"entries\": [\n        {\n          \"client_tag_hash\": \"0QOzfIq9+fRsd65uR/YDs4f1O9E=\",\n          \"deleted\": true,\n          \"id_string\": \"Z:ADqtAZwTqq53I1NmdNBHIa+C+wLqcCLgk0l4opwJGf0Hzj6b7m30v0wVydJYThR5s+54b48M2ai1xnq7/vkOg3Om0/Pu7+AvCA==\",\n          \"mtime\": \"1704905241136\",\n          \"name\": \"\",\n          \"version\": \"1\"\n        }\n      ]\n    },\n    \"debug_info\": {\n      \"cryptographer_has_pending_keys\": false,\n      \"cryptographer_ready\": true,\n      \"events\": [\n        {\n          \"sync_cycle_completed_event_info\": {\n            \"caller_info\": {\n              \"notifications_enabled\": true\n            },\n            \"get_updates_origin\": \"GU_TRIGGER\",\n            \"num_server_conflicts\": \"0\",\n            \"num_updates_downloaded\": \"0\"\n          }\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        }\n      ],\n      \"events_dropped\": false\n    },\n    \"protocol_version\": \"99\",\n    \"share\": \"gabemacru@gmail.com\",\n    \"store_birthday\": \"z0000017c-95b4-29cc-0000-0000616e0110\"\n  },\n  \"time\": 1704905252139.787,\n  \"type\": \"Commit Request\"\n}"
+    },
+    {
+      "submodule": "protocol",
+      "event": "onProtocolEvent",
+      "date": "2024-01-10T16:51:51.436Z",
+      "details": {
+        "details": "Result: Success",
+        "proto": {
+          "client_command": {
+            "max_commit_batch_size": "90",
+            "set_sync_poll_interval": "14400"
+          },
+          "commit": {
+            "entryresponse": [
+              {
+                "id_string": "Z:ADqtAZwTqq53I1NmdNBHIa+C+wLqcCLgk0l4opwJGf0Hzj6b7m30v0wVydJYThR5s+54b48M2ai1xnq7/vkOg3Om0/Pu7+AvCA==",
+                "mtime": "1704905252567",
+                "response_type": "SUCCESS",
+                "version": "1704905252567130"
+              }
+            ]
+          },
+          "error_code": "SUCCESS",
+          "store_birthday": "z0000017c-95b4-29cc-0000-0000616e0110"
+        },
+        "time": 1704905252233.946,
+        "type": "Commit Response"
+      },
+      "textDetails": "{\n  \"details\": \"Result: Success\",\n  \"proto\": {\n    \"client_command\": {\n      \"max_commit_batch_size\": \"90\",\n      \"set_sync_poll_interval\": \"14400\"\n    },\n    \"commit\": {\n      \"entryresponse\": [\n        {\n          \"id_string\": \"Z:ADqtAZwTqq53I1NmdNBHIa+C+wLqcCLgk0l4opwJGf0Hzj6b7m30v0wVydJYThR5s+54b48M2ai1xnq7/vkOg3Om0/Pu7+AvCA==\",\n          \"mtime\": \"1704905252567\",\n          \"response_type\": \"SUCCESS\",\n          \"version\": \"1704905252567130\"\n        }\n      ]\n    },\n    \"error_code\": \"SUCCESS\",\n    \"store_birthday\": \"z0000017c-95b4-29cc-0000-0000616e0110\"\n  },\n  \"time\": 1704905252233.946,\n  \"type\": \"Commit Response\"\n}"
+    },
+    {
+      "submodule": "protocol",
+      "event": "onProtocolEvent",
+      "date": "2024-01-10T16:51:51.439Z",
+      "details": {
+        "details": "Item count: 1\nContributing types: Sessions",
+        "proto": {
+          "client_status": {
+            "is_sync_feature_enabled": true
+          },
+          "commit": {
+            "cache_guid": "VZ1eaDHRRQsqYVZnFQ5dcA==",
+            "config_params": {
+              "cookie_jar_mismatch": false,
+              "enabled_type_ids": [
+                "32904",
+                "37702",
+                "45873",
+                "63951",
+                "31729",
+                "306270",
+                "330441",
+                "774329",
+                "41210",
+                "48119",
+                "88610",
+                "50119",
+                "48364",
+                "103656",
+                "96159",
+                "150251",
+                "170540",
+                "154522",
+                "163425",
+                "229170",
+                "340906",
+                "410745",
+                "411028",
+                "455206",
+                "556014",
+                "601980",
+                "600372",
+                "662827",
+                "673225",
+                "702141",
+                "703915",
+                "728866",
+                "874841",
+                "963985",
+                "1034378",
+                "47745"
+              ],
+              "single_client": false,
+              "single_client_with_old_invalidations": true,
+              "single_client_with_standalone_invalidations": false,
+              "tabs_datatype_enabled": true
+            },
+            "entries": [
+              {
+                "client_tag_hash": "M22MvhxtGDKwegNoJiVYpb48bNw=",
+                "ctime": "1704903981806",
+                "deleted": false,
+                "id_string": "Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq/5PIrnMfJ9IW9PpYuIPWIHIAhw+HAA4U7nyM6DFSVwfebfNWDjdzyl41IAligO+vHuocmw==",
+                "mtime": "1704905365532",
+                "name": "Chromebook",
+                "version": "1704905152293730"
+              }
+            ]
+          },
+          "debug_info": {
+            "cryptographer_has_pending_keys": false,
+            "cryptographer_ready": true,
+            "events": [
+              {
+                "sync_cycle_completed_event_info": {
+                  "caller_info": {
+                    "notifications_enabled": true
+                  },
+                  "get_updates_origin": "GU_TRIGGER",
+                  "num_server_conflicts": "0",
+                  "num_updates_downloaded": "0"
+                }
+              },
+              {
+                "nudging_datatype": "50119"
+              }
+            ],
+            "events_dropped": false
+          },
+          "protocol_version": "99",
+          "share": "gabemacru@gmail.com",
+          "store_birthday": "z0000017c-95b4-29cc-0000-0000616e0110"
+        },
+        "time": 1704905376536.158,
+        "type": "Commit Request"
+      },
+      "textDetails": "{\n  \"details\": \"Item count: 1\\nContributing types: Sessions\",\n  \"proto\": {\n    \"client_status\": {\n      \"is_sync_feature_enabled\": true\n    },\n    \"commit\": {\n      \"cache_guid\": \"VZ1eaDHRRQsqYVZnFQ5dcA==\",\n      \"config_params\": {\n        \"cookie_jar_mismatch\": false,\n        \"enabled_type_ids\": [\n          \"32904\",\n          \"37702\",\n          \"45873\",\n          \"63951\",\n          \"31729\",\n          \"306270\",\n          \"330441\",\n          \"774329\",\n          \"41210\",\n          \"48119\",\n          \"88610\",\n          \"50119\",\n          \"48364\",\n          \"103656\",\n          \"96159\",\n          \"150251\",\n          \"170540\",\n          \"154522\",\n          \"163425\",\n          \"229170\",\n          \"340906\",\n          \"410745\",\n          \"411028\",\n          \"455206\",\n          \"556014\",\n          \"601980\",\n          \"600372\",\n          \"662827\",\n          \"673225\",\n          \"702141\",\n          \"703915\",\n          \"728866\",\n          \"874841\",\n          \"963985\",\n          \"1034378\",\n          \"47745\"\n        ],\n        \"single_client\": false,\n        \"single_client_with_old_invalidations\": true,\n        \"single_client_with_standalone_invalidations\": false,\n        \"tabs_datatype_enabled\": true\n      },\n      \"entries\": [\n        {\n          \"client_tag_hash\": \"M22MvhxtGDKwegNoJiVYpb48bNw=\",\n          \"ctime\": \"1704903981806\",\n          \"deleted\": false,\n          \"id_string\": \"Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq/5PIrnMfJ9IW9PpYuIPWIHIAhw+HAA4U7nyM6DFSVwfebfNWDjdzyl41IAligO+vHuocmw==\",\n          \"mtime\": \"1704905365532\",\n          \"name\": \"Chromebook\",\n          \"version\": \"1704905152293730\"\n        }\n      ]\n    },\n    \"debug_info\": {\n      \"cryptographer_has_pending_keys\": false,\n      \"cryptographer_ready\": true,\n      \"events\": [\n        {\n          \"sync_cycle_completed_event_info\": {\n            \"caller_info\": {\n              \"notifications_enabled\": true\n            },\n            \"get_updates_origin\": \"GU_TRIGGER\",\n            \"num_server_conflicts\": \"0\",\n            \"num_updates_downloaded\": \"0\"\n          }\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        }\n      ],\n      \"events_dropped\": false\n    },\n    \"protocol_version\": \"99\",\n    \"share\": \"gabemacru@gmail.com\",\n    \"store_birthday\": \"z0000017c-95b4-29cc-0000-0000616e0110\"\n  },\n  \"time\": 1704905376536.158,\n  \"type\": \"Commit Request\"\n}"
+    },
+    {
+      "submodule": "protocol",
+      "event": "onProtocolEvent",
+      "date": "2024-01-10T16:51:51.442Z",
+      "details": {
+        "details": "Result: Success",
+        "proto": {
+          "client_command": {
+            "max_commit_batch_size": "90",
+            "set_sync_poll_interval": "14400"
+          },
+          "commit": {
+            "entryresponse": [
+              {
+                "id_string": "Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq/5PIrnMfJ9IW9PpYuIPWIHIAhw+HAA4U7nyM6DFSVwfebfNWDjdzyl41IAligO+vHuocmw==",
+                "mtime": "1704905376982",
+                "response_type": "SUCCESS",
+                "version": "1704905376982207"
+              }
+            ]
+          },
+          "error_code": "SUCCESS",
+          "store_birthday": "z0000017c-95b4-29cc-0000-0000616e0110"
+        },
+        "time": 1704905376669.994,
+        "type": "Commit Response"
+      },
+      "textDetails": "{\n  \"details\": \"Result: Success\",\n  \"proto\": {\n    \"client_command\": {\n      \"max_commit_batch_size\": \"90\",\n      \"set_sync_poll_interval\": \"14400\"\n    },\n    \"commit\": {\n      \"entryresponse\": [\n        {\n          \"id_string\": \"Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq/5PIrnMfJ9IW9PpYuIPWIHIAhw+HAA4U7nyM6DFSVwfebfNWDjdzyl41IAligO+vHuocmw==\",\n          \"mtime\": \"1704905376982\",\n          \"response_type\": \"SUCCESS\",\n          \"version\": \"1704905376982207\"\n        }\n      ]\n    },\n    \"error_code\": \"SUCCESS\",\n    \"store_birthday\": \"z0000017c-95b4-29cc-0000-0000616e0110\"\n  },\n  \"time\": 1704905376669.994,\n  \"type\": \"Commit Response\"\n}"
+    },
+    {
+      "submodule": "protocol",
+      "event": "onProtocolEvent",
+      "date": "2024-01-10T16:51:51.445Z",
+      "details": {
+        "details": "Item count: 4\nContributing types: Sessions, History",
+        "proto": {
+          "client_status": {
+            "is_sync_feature_enabled": true
+          },
+          "commit": {
+            "cache_guid": "VZ1eaDHRRQsqYVZnFQ5dcA==",
+            "config_params": {
+              "cookie_jar_mismatch": false,
+              "enabled_type_ids": [
+                "32904",
+                "37702",
+                "45873",
+                "63951",
+                "31729",
+                "306270",
+                "330441",
+                "774329",
+                "41210",
+                "48119",
+                "88610",
+                "50119",
+                "48364",
+                "103656",
+                "96159",
+                "150251",
+                "170540",
+                "154522",
+                "163425",
+                "229170",
+                "340906",
+                "410745",
+                "411028",
+                "455206",
+                "556014",
+                "601980",
+                "600372",
+                "662827",
+                "673225",
+                "702141",
+                "703915",
+                "728866",
+                "874841",
+                "963985",
+                "1034378",
+                "47745"
+              ],
+              "single_client": false,
+              "single_client_with_old_invalidations": true,
+              "single_client_with_standalone_invalidations": false,
+              "tabs_datatype_enabled": true
+            },
+            "entries": [
+              {
+                "client_tag_hash": "0QOzfIq9+fRsd65uR/YDs4f1O9E=",
+                "ctime": "1704905483543",
+                "deleted": false,
+                "id_string": "55b3df5c-8a39-49ff-bfa4-28e4201215ae",
+                "mtime": "1704905485997",
+                "name": "Chromebook",
+                "version": "0"
+              },
+              {
+                "client_tag_hash": "pp24+sXrFxzUfzIeTrDCJSK+wK4=",
+                "ctime": "1704901082844",
+                "deleted": false,
+                "id_string": "Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq+t762ujmbOU6MI2FKb62UnkE6gr+jLOnawDlfHBVrdoKrEddiQnn1L1L2Br5Y7JS0bklng==",
+                "mtime": "1704905490500",
+                "name": "Chromebook",
+                "version": "1704905235593182"
+              },
+              {
+                "client_tag_hash": "Rz5r48f4c7ID5p5Po7mvfbgSdIs=",
+                "ctime": "1704905484163",
+                "deleted": false,
+                "id_string": "7dfed2bf-4740-4c74-bb21-b920fba6cb80",
+                "mtime": "1704905490490",
+                "name": "VZ1eaDHRRQsqYVZnFQ5dcA==-chrome-extension://bpmcpldpdmajfigpchkicefoigmkfalc/views/app.html",
+                "version": "0"
+              },
+              {
+                "client_tag_hash": "WSiBSX51ReaXbngKpzUsVqnzi+o=",
+                "ctime": "1704905483552",
+                "deleted": false,
+                "id_string": "8d833b34-1313-45d1-931f-2c51c9ab0683",
+                "mtime": "1704905484161",
+                "name": "VZ1eaDHRRQsqYVZnFQ5dcA==-chrome-extension://bpmcpldpdmajfigpchkicefoigmkfalc/views/app.html?uuid=3d5f02d1-f07b-44ed-a1e6-7f18b5064ae4",
+                "version": "0"
+              }
+            ]
+          },
+          "debug_info": {
+            "cryptographer_has_pending_keys": false,
+            "cryptographer_ready": true,
+            "events": [
+              {
+                "sync_cycle_completed_event_info": {
+                  "caller_info": {
+                    "notifications_enabled": true
+                  },
+                  "get_updates_origin": "GU_TRIGGER",
+                  "num_server_conflicts": "0",
+                  "num_updates_downloaded": "0"
+                }
+              },
+              {
+                "nudging_datatype": "50119"
+              },
+              {
+                "nudging_datatype": "50119"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "50119"
+              },
+              {
+                "nudging_datatype": "50119"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "50119"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "50119"
+              },
+              {
+                "nudging_datatype": "963985"
+              },
+              {
+                "nudging_datatype": "50119"
+              }
+            ],
+            "events_dropped": false
+          },
+          "protocol_version": "99",
+          "share": "gabemacru@gmail.com",
+          "store_birthday": "z0000017c-95b4-29cc-0000-0000616e0110"
+        },
+        "time": 1704905494570.469,
+        "type": "Commit Request"
+      },
+      "textDetails": "{\n  \"details\": \"Item count: 4\\nContributing types: Sessions, History\",\n  \"proto\": {\n    \"client_status\": {\n      \"is_sync_feature_enabled\": true\n    },\n    \"commit\": {\n      \"cache_guid\": \"VZ1eaDHRRQsqYVZnFQ5dcA==\",\n      \"config_params\": {\n        \"cookie_jar_mismatch\": false,\n        \"enabled_type_ids\": [\n          \"32904\",\n          \"37702\",\n          \"45873\",\n          \"63951\",\n          \"31729\",\n          \"306270\",\n          \"330441\",\n          \"774329\",\n          \"41210\",\n          \"48119\",\n          \"88610\",\n          \"50119\",\n          \"48364\",\n          \"103656\",\n          \"96159\",\n          \"150251\",\n          \"170540\",\n          \"154522\",\n          \"163425\",\n          \"229170\",\n          \"340906\",\n          \"410745\",\n          \"411028\",\n          \"455206\",\n          \"556014\",\n          \"601980\",\n          \"600372\",\n          \"662827\",\n          \"673225\",\n          \"702141\",\n          \"703915\",\n          \"728866\",\n          \"874841\",\n          \"963985\",\n          \"1034378\",\n          \"47745\"\n        ],\n        \"single_client\": false,\n        \"single_client_with_old_invalidations\": true,\n        \"single_client_with_standalone_invalidations\": false,\n        \"tabs_datatype_enabled\": true\n      },\n      \"entries\": [\n        {\n          \"client_tag_hash\": \"0QOzfIq9+fRsd65uR/YDs4f1O9E=\",\n          \"ctime\": \"1704905483543\",\n          \"deleted\": false,\n          \"id_string\": \"55b3df5c-8a39-49ff-bfa4-28e4201215ae\",\n          \"mtime\": \"1704905485997\",\n          \"name\": \"Chromebook\",\n          \"version\": \"0\"\n        },\n        {\n          \"client_tag_hash\": \"pp24+sXrFxzUfzIeTrDCJSK+wK4=\",\n          \"ctime\": \"1704901082844\",\n          \"deleted\": false,\n          \"id_string\": \"Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq+t762ujmbOU6MI2FKb62UnkE6gr+jLOnawDlfHBVrdoKrEddiQnn1L1L2Br5Y7JS0bklng==\",\n          \"mtime\": \"1704905490500\",\n          \"name\": \"Chromebook\",\n          \"version\": \"1704905235593182\"\n        },\n        {\n          \"client_tag_hash\": \"Rz5r48f4c7ID5p5Po7mvfbgSdIs=\",\n          \"ctime\": \"1704905484163\",\n          \"deleted\": false,\n          \"id_string\": \"7dfed2bf-4740-4c74-bb21-b920fba6cb80\",\n          \"mtime\": \"1704905490490\",\n          \"name\": \"VZ1eaDHRRQsqYVZnFQ5dcA==-chrome-extension://bpmcpldpdmajfigpchkicefoigmkfalc/views/app.html\",\n          \"version\": \"0\"\n        },\n        {\n          \"client_tag_hash\": \"WSiBSX51ReaXbngKpzUsVqnzi+o=\",\n          \"ctime\": \"1704905483552\",\n          \"deleted\": false,\n          \"id_string\": \"8d833b34-1313-45d1-931f-2c51c9ab0683\",\n          \"mtime\": \"1704905484161\",\n          \"name\": \"VZ1eaDHRRQsqYVZnFQ5dcA==-chrome-extension://bpmcpldpdmajfigpchkicefoigmkfalc/views/app.html?uuid=3d5f02d1-f07b-44ed-a1e6-7f18b5064ae4\",\n          \"version\": \"0\"\n        }\n      ]\n    },\n    \"debug_info\": {\n      \"cryptographer_has_pending_keys\": false,\n      \"cryptographer_ready\": true,\n      \"events\": [\n        {\n          \"sync_cycle_completed_event_info\": {\n            \"caller_info\": {\n              \"notifications_enabled\": true\n            },\n            \"get_updates_origin\": \"GU_TRIGGER\",\n            \"num_server_conflicts\": \"0\",\n            \"num_updates_downloaded\": \"0\"\n          }\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        },\n        {\n          \"nudging_datatype\": \"963985\"\n        },\n        {\n          \"nudging_datatype\": \"50119\"\n        }\n      ],\n      \"events_dropped\": false\n    },\n    \"protocol_version\": \"99\",\n    \"share\": \"gabemacru@gmail.com\",\n    \"store_birthday\": \"z0000017c-95b4-29cc-0000-0000616e0110\"\n  },\n  \"time\": 1704905494570.469,\n  \"type\": \"Commit Request\"\n}"
+    },
+    {
+      "submodule": "protocol",
+      "event": "onProtocolEvent",
+      "date": "2024-01-10T16:51:51.449Z",
+      "details": {
+        "details": "Result: Success",
+        "proto": {
+          "client_command": {
+            "max_commit_batch_size": "90",
+            "set_sync_poll_interval": "14400"
+          },
+          "commit": {
+            "entryresponse": [
+              {
+                "id_string": "Z:ADqtAZwTqq53I1NmdNBHIa+C+wLqcCLgk0l4opwJGf0Hzj6b7m30v0wVydJYThR5s+54b48M2ai1xnq7/vkOg3Om0/Pu7+AvCA==",
+                "mtime": "1704905495012",
+                "response_type": "SUCCESS",
+                "version": "1704905495012705"
+              },
+              {
+                "id_string": "Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq+t762ujmbOU6MI2FKb62UnkE6gr+jLOnawDlfHBVrdoKrEddiQnn1L1L2Br5Y7JS0bklng==",
+                "mtime": "1704905495012",
+                "response_type": "SUCCESS",
+                "version": "1704905495012705"
+              },
+              {
+                "id_string": "7dfed2bf-4740-4c74-bb21-b920fba6cb80",
+                "mtime": "1704905490491",
+                "response_type": "SUCCESS",
+                "version": "1704905495011053"
+              },
+              {
+                "id_string": "8d833b34-1313-45d1-931f-2c51c9ab0683",
+                "mtime": "1704905484162",
+                "response_type": "SUCCESS",
+                "version": "1704905495011077"
+              }
+            ]
+          },
+          "error_code": "SUCCESS",
+          "store_birthday": "z0000017c-95b4-29cc-0000-0000616e0110"
+        },
+        "time": 1704905494729.99,
+        "type": "Commit Response"
+      },
+      "textDetails": "{\n  \"details\": \"Result: Success\",\n  \"proto\": {\n    \"client_command\": {\n      \"max_commit_batch_size\": \"90\",\n      \"set_sync_poll_interval\": \"14400\"\n    },\n    \"commit\": {\n      \"entryresponse\": [\n        {\n          \"id_string\": \"Z:ADqtAZwTqq53I1NmdNBHIa+C+wLqcCLgk0l4opwJGf0Hzj6b7m30v0wVydJYThR5s+54b48M2ai1xnq7/vkOg3Om0/Pu7+AvCA==\",\n          \"mtime\": \"1704905495012\",\n          \"response_type\": \"SUCCESS\",\n          \"version\": \"1704905495012705\"\n        },\n        {\n          \"id_string\": \"Z:ADqtAZwTqq53I1NmdNBHIa+C+wLq+t762ujmbOU6MI2FKb62UnkE6gr+jLOnawDlfHBVrdoKrEddiQnn1L1L2Br5Y7JS0bklng==\",\n          \"mtime\": \"1704905495012\",\n          \"response_type\": \"SUCCESS\",\n          \"version\": \"1704905495012705\"\n        },\n        {\n          \"id_string\": \"7dfed2bf-4740-4c74-bb21-b920fba6cb80\",\n          \"mtime\": \"1704905490491\",\n          \"response_type\": \"SUCCESS\",\n          \"version\": \"1704905495011053\"\n        },\n        {\n          \"id_string\": \"8d833b34-1313-45d1-931f-2c51c9ab0683\",\n          \"mtime\": \"1704905484162\",\n          \"response_type\": \"SUCCESS\",\n          \"version\": \"1704905495011077\"\n        }\n      ]\n    },\n    \"error_code\": \"SUCCESS\",\n    \"store_birthday\": \"z0000017c-95b4-29cc-0000-0000616e0110\"\n  },\n  \"time\": 1704905494729.99,\n  \"type\": \"Commit Response\"\n}"
+    }
+  ]
